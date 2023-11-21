@@ -1,0 +1,15 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+.container-streetView {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-guess {
+    display: flex;
+    flex-direction: column;
+}
